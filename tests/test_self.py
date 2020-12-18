@@ -250,7 +250,7 @@ class TestRunTC:
                 join(HERE, "functional", "a", "arguments.py"),
             ],
             # We expect similarities to fail and an error
-            code=MSG_TYPES_STATUS["R"] | MSG_TYPES_STATUS["E"],
+            code=MSG_TYPES_STATUS["E"],
         )
 
     def test_parallel_execution_missing_arguments(self):
