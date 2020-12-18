@@ -22,7 +22,7 @@ import pytest
 
 from pylint.checkers import similar
 from pylint.lint import PyLinter
-from pylint.testutils import TestReporter as Reporter
+from pylint.testutils import GenericTestReporter as Reporter
 
 INPUT = Path(__file__).parent / ".." / "input"
 SIMILAR1 = str(INPUT / "similar1")
